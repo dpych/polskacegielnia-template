@@ -16,10 +16,10 @@ script:
 #  on:
 #    tags: true
 
-env:
-  global:
-    - "USER=user"
-    - "PASWD=paswd"
+#env:
+#  global:
+#    - "USER=user"
+#    - "PASWD=paswd"
 
 after_success:
   "curl --ftp-create-dirs -T polskiecegielnie -u $USER:$PASWD ftp://ks3309521.kimsufi.com/web/wp-content/themes/"
