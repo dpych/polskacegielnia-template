@@ -8,22 +8,6 @@ before_script:
 - sudo apt-get install ncftp
 
 script:
-- ./notest.sh
-
-#deploy:
-#  provider: releases
-#  api_key: "314d5b6812890a308500921d00266a8041651210"
-#  file: 
-#    - "polskiecegielnie"
-#  skip_cleanup: true
-#  on:
-#    tags: true
-
-#env:
-#  global:
-#    - "USER=user"
-#    - "PASWD=paswd"
-
-after_success:
-#  "curl --ftp-create-dirs -T polskiecegielnie -u $USER:$PASWD ftp://ks3309521.kimsufi.com/web/wp-content/themes/"
-  "ncftpput -R -u $USER -p $PASWD ks3309521.kimsufi.com /web/wp-content/themes ./polskiecegielnie"
+#- ./notest.sh
+#after_success:
+- "ncftpput -R -u $USER -p $PASWD ks3309521.kimsufi.com /web/wp-content/themes ./polskiecegielnie"
