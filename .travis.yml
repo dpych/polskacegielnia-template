@@ -15,7 +15,8 @@ script:
 #  skip_cleanup: true
 #  on:
 #    tags: true
-env
+
+env:
   global:
     - "USER=user"
     - "PASWD=paswd"
