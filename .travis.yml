@@ -4,6 +4,9 @@ php:
 - hhvm
 - nightly
 
+before_script:
+- sudo apt-get install ncftp
+
 script:
 - ./notest.sh
 
@@ -22,4 +25,5 @@ script:
 #    - "PASWD=paswd"
 
 after_success:
-  "curl --ftp-create-dirs -T polskiecegielnie -u $USER:$PASWD ftp://ks3309521.kimsufi.com/web/wp-content/themes/"
+#  "curl --ftp-create-dirs -T polskiecegielnie -u $USER:$PASWD ftp://ks3309521.kimsufi.com/web/wp-content/themes/"
+  "ncftpput -R -u $USER -p $PASWD ks3309521.kimsufi.com /web/wp-content/themes ./polskiecegielnie"
