@@ -9,7 +9,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
+  api_key: "314d5b6812890a308500921d00266a8041651210"
   file: 
     - "polskiecegielnie"
   skip_cleanup: true
