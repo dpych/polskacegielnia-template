@@ -1,5 +1,6 @@
 <?php
 /**
+ * drobna zmiana
  * The main template file
  *
  * This is the most generic template file in a WordPress theme and one of the
