@@ -11,25 +11,65 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-
-.navbar.navbar-default{
-    color: rgba(255, 255, 255, 0.9);
-    background-color: rgba(235, 78, 21, 0.93);
+/*
+ value setup
+*/
+/*
+ 1 header section
+*/
+/*
+ 1.1 header nav session
+*/
+.header {
+  background: rgba(235, 78, 21, 0.89);
 }
-.navbar-default .navbar-nav>li>a {
-    color: rgba(255, 255, 255, 0.8);
+.navbar.navbar-default {
+  background-color: rgba(235, 78, 21, 0.89);
+  border-radius: 1em;
 }
-
-.navbar-default .navbar-nav>li>a:hover {
-    color: rgba(255, 255, 255, 0.85);
-    text-decoration: underline;
-    background-color: rgba(235, 78, 21, 1);
+.navbar.navbar-default:hower {
+  background-color: #e7e7e7;
 }
-.navbar-default .navbar-nav>.active>a {
-    color: rgba(255, 255, 255, 0.7);
-    background-color: rgba(235, 78, 21, 0.73);
+.navbar-default .navbar-nav > .active > a {
+  background-color: lighter(rgba(235, 78, 21, 0.89), 13%);
 }
-.navbar-default .navbar-nav>.active>a:visited {
-    color: rgba(255, 255, 255, 1);
-
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  border-radius: 1em;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f1ebeb;
+}
+.navbar-nav > li > a:hover {
+  color: lighter(#f1ebeb, 10%);
+  text-decoration: underline;
+}
+.navbar-nav > li > a:focus {
+  color: lighter(#f1ebeb, 10%);
+}
+.navbar-nav > .active > a {
+  color: lighter(#f1ebeb, 13%);
+  background-color: darker(rgba(235, 78, 21, 0.89), 13%);
+}
+/*
+ 2 header section
+*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: rgba(235, 78, 21, 0.89);
+}
+.entry-title {
+  color: rgba(235, 78, 21, 0.89);
+}
+/*
+ 3 footer section
+*/
+#colophon {
+  background-color: rgba(235, 78, 21, 0.89);
+  color: #f1ebeb;
+  border-radius: 1em;
 }

@@ -1,0 +1,76 @@
+/*
+ Theme Name:   polskie cegielnie mail theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       it.kajzarowie.net
+ Author URI:   http://example.com
+ Template:     unite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+
+/*
+ value setup
+*/
+@brick_color:rgba(235, 78, 21, 0.89);
+ @textWhiteColor:rgb(241, 235, 235);
+ @textWhiteHower:#e7e7e7;
+/*
+ 1 header section
+*/
+/*
+ 1.1 header nav session
+*/
+
+.header{
+        background:@brick_color;
+}
+.navbar.navbar-default{
+    background-color:@brick_color;
+border-radius:1em;
+}
+.navbar.navbar-default:hower{
+    background-color:@textWhiteHower;   
+}
+.navbar-default .navbar-nav>.active>a{
+    background-color: lighter(@brick_color,13%);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    border-radius:1em;
+}
+.navbar-default .navbar-nav>li>a{
+    color:@textWhiteColor;
+}
+.navbar-nav>li>a:hover{
+    color:lighter(@textWhiteColor,10%);
+    text-decoration:underline;
+}
+.navbar-nav>li>a:focus{
+    color:lighter(@textWhiteColor,10%);
+}
+.navbar-nav>.active>a{
+color:lighter(@textWhiteColor,13%);
+ background-color:darker(@brick_color,13%);
+}
+
+/*
+ 2 header section
+*/
+h1, h2, h3, h4, h5 {
+    color:@brick_color
+}
+.entry-title {
+    color: @brick_color;
+}
+/*
+ 3 footer section
+*/
+#colophon {
+    background-color: @brick_color;
+color:@textWhiteColor;
+border-radius:1em;
+}
