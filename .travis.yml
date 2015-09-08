@@ -13,10 +13,10 @@ script:
 
 notifications:
   email:
-    recipients:
-      - dawidpych+5450a7b7c1b20b981571eb16+55d6f9b7c7183f8c62f628c6+d6a1f44f7bbd18dc2f83d8278d639ff987b83243@boards.trello.com
-      - dawidpych@gmail.com
-    on_success: [always]
-    on_failure: [always]
+#    recipients:
+#    - dawidpych+5450a7b7c1b20b981571eb16+55d6f9b7c7183f8c62f628c6+d6a1f44f7bbd18dc2f83d8278d639ff987b83243@boards.trello.com
+    - dawidpych@gmail.com
+#    on_success: [always]
+#    on_failure: [always]
 #  template:
 #    "%{repository} (%{commit}) : %{meddage} \n Build details: %{build_url}"
