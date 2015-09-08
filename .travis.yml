@@ -9,6 +9,7 @@ before_script:
 
 script:
 - "ncftpput -R -u $USER -p $PASWD ks3309521.kimsufi.com /web/wp-content/themes ./polskiecegielnie"
+- "ncftpput -R -u $USER -p $PASWD ks3309521.kimsufi.com /web/wp-content/themes ./unite"
 
 notifications:
   email:
