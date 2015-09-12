@@ -3,11 +3,15 @@
 <main col-sm-12 >
 
     <figure class="col-md-12 banner row">
-        <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
-        <figcaption class=""col-md-3>
-            <h3>Lorem Ipsum</h3>
-            <p>jakis zajebisty tesk opisujacy jak bardzo zajebiusta cegle produjemy</p>
-        </figcaption>
+        <a href="/index.php/o-nas" class="thumbnail">
+            <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
+            <figcaption class=""col-md-3>
+                <h3>Witamy na portalu POLSKA CEGŁA</h3>
+                <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
+                    oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
+                    certyfikowanych marką Polska Cegła.</p>
+            </figcaption>
+        </a>
     </figure>
     <div class="panel">
         <div class="row ">
