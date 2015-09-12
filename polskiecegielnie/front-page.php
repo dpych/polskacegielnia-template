@@ -69,18 +69,18 @@
         <div class="jumbotron jumbotron-three row" >
             <div class="col-md-offset-9 col-md-3">
                 <h1>Kontakt</h1>
-                <p>Adresy, telefony
-Siedziba Zrzeszenia:
-37 – 470 Zaklików
-ul. Słubickiego 27
+                <p>Adresy<br/>
+Siedziba Zrzeszenia:<br/>
+37 – 470 Zaklików<br/>
+ul. Słubickiego 27<br/><br/>
  
-Biuro Zrzeszenia:
-23 – 200 Kraśnik
-Plac Wolności 3
+Biuro Zrzeszenia:<br/>
+23 – 200 Kraśnik<br/>
+Plac Wolności 3<br/><br/>
  
-Telefony kontaktowe:
-tel. 81/825-05-31
-tel. 81/825-38-31
+Telefony kontaktowe:<br/>
+tel. 81/825-05-31<br/>
+tel. 81/825-38-31<br/><br/>
 
 E-mail: zrzeszenie@cerbud.org.pl
 </p>
