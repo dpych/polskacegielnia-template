@@ -1,0 +1,77 @@
+
+Menu
+pasek: rozmiar: wysokosc 60px, color: 235,78,21 (#eb4e15)
+czcionka: Frankling gothick book (pogróbiona), rozmiar: 16pkt, color 255,255,255 (#ffffff)
+
+====================================================================================
+
+kwadrat pomarancz: color: 235,78,21 (#eb4e15) rozmiar 326x316, rozmiar prostok¹ta "wiecej>" 137x36
+kafelka szara: color:225,225,225 (#e1e1e1), rozmiar 355x270, grubosc 2px, rozmiar prostok¹ta "wiecej>" 137x36
+
+wiêcej
+czcionka: Frankling gothick book (pogróbiona)
+rozmiar: 18pkt
+color: 255,255,255 (#ffffff)
+
+znaczek wiekszoœci: >
+czcionka: consolas
+rozmiar:36pkt
+coloer: 255,255,255 (#ffffff)
+
+=====================================================================================
+
+Witamy!POLSKA CEG£A
+
+czcionka: Frankling gothick book (pogróbiona)
+rozmiar: 36pkt
+color: 255,114,0 (#ff7200)
+cien: odlwg³osc 2px, rozmiar 2px alpha 35%
+
+PORADY
+jak wy¿ej, rozmiar: 48pkt
+
+Kontakt
+jak wy¿ej, rozmiar 30pkt
+
+=====================================================================================
+
+Zaprasza do portalu wiedzy o materialach budowlanych, technologiach wykonywania œcian oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów certyfikownaych mark¹ Polska Ceg³a  |  
+
+czcionka: Frankling gothick book (pogróbiona)
+rozmiar: 18pkt
+color: 65,65, 65 (#414141)
+cien: odlwg³osc 1px, rozmiar 1px alpha 35%
+
+Masz pytanie?  |  Jak zamówiæ?  |  Prosty wybór! |  Ryszard Belak  |  Ryszard BelakArtur Stawski
+jak wy¿ej, rozmiar: 32pkt
+
+Tu dowiesz siê jak zamówiæ produkty.
+wszytko jak wy¿ej, rozmiar: 20pkt
+
+Tutaj poradzimy jak¹ ceg³ê wybraæ oraz jak wybudowaæ dom.
+jak wy¿ej rozmiar 30pkt
+
+TYLKO CEG£A CERAMICZNA JEST PONADCZASOWA, ZDROWA, EKOLOGICZNA, OGNIOODPORNA, NATURALNA, SPRAWDZONA, ZAWSZE MODNA  |  JAK ZBUDOWAÆ DOM Z CERAMIKI BUDOWLANEJ?
+jak wy¿ej, rozmiar: 16pkt 
+
+
+====================================================================================
+
+Adresy:
+Siedziba Zrzeszenia37 – 470 Zaklikówul. S³ubickiego 27
+Biuro Zrzeszenia23 – 200 KraœnikPlac Wolnoœci 3
+Telefony kontaktowe:
+tel. 81/825-05-31tel. 
+81/825-38-31
+E-mail: zrzeszenie@cerbud.org.pl
+
+
+Wstopce widze, ¿e wyko¿ysatana jet zwykla czcionka "Arial" ale mo¿a uzyæ tego "Frankling gothick book (pogróbiona)"
+clor boxa to 168,173,175 (#a8adaf)
+Inoformacje to kolor czarny
+menu stopki to kolor 104,126,151 (#687e97)
+
+
+
+
+

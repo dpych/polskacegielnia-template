@@ -14,62 +14,149 @@
 /*
  value setup
 */
-/*
- 1 header section
-*/
-/*
- 1.1 header nav session
-*/
-.header {
-  background: rgba(235, 78, 21, 0.89);
+#page .header-area {
+  background-color: #eb4e15;
+  height: 4em;
+  width: 100%;
+}
+#page .navbar navbar-default {
+  background-color: #eb4e15;
+  color: #ffffff;
+}
+/* =Navigation
+----------------------------------------------- */
+.site-main [class*="navigation"] a,
+.more-link {
+  border: 1px solid #DDD;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: block;
+}
+.site-main [class*="navigation"] a:hover,
+.more-link:hover {
+  color: #fff;
+  background: #eb4e15;
+  text-decoration: none;
+}
+.more-link {
+  float: right;
+  margin: 10px 0;
+}
+.site-main [class*="navigation"] {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+[class*="navigation"] .nav-previous {
+  float: left;
+}
+[class*="navigation"] .nav-next {
+  float: right;
+  text-align: right;
 }
 .navbar.navbar-default {
-  background-color: rgba(235, 78, 21, 0.89);
-  border-radius: 1em;
-}
-.navbar.navbar-default:hower {
-  background-color: #e7e7e7;
-}
-.navbar-default .navbar-nav > .active > a {
-  background-color: lighter(rgba(235, 78, 21, 0.89), 13%);
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > .active > a:hover {
-  border-radius: 1em;
+  background-color: #eb4e15;
+  font-weight: 200;
+  height: 100%;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #f1ebeb;
+  color: #fff;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
 }
-.navbar-nav > li > a:hover {
-  color: lighter(#f1ebeb, 10%);
-  text-decoration: underline;
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: none;
 }
-.navbar-nav > li > a:focus {
-  color: lighter(#f1ebeb, 10%);
+.navbar {
+  border-radius: 0;
 }
-.navbar-nav > .active > a {
-  color: lighter(#f1ebeb, 13%);
-  background-color: darker(rgba(235, 78, 21, 0.89), 13%);
+.navbar-default {
+  border: none;
 }
-/*
- 2 header section
-*/
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: rgba(235, 78, 21, 0.89);
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.1);
 }
-.entry-title {
-  color: rgba(235, 78, 21, 0.89);
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #fff;
 }
-/*
- 3 footer section
-*/
-#colophon {
-  background-color: rgba(235, 78, 21, 0.89);
-  color: #f1ebeb;
-  border-radius: 1em;
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dropdown-menu > li > a {
+  padding: 18px 20px;
+  color: #fff;
+}
+.dropdown-menu,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #eb4e15;
+  border: none;
+}
+.dropdown-menu .divider {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-nav > li > .dropdown-menu {
+  padding: 0;
+}
+.navbar-nav > li > a {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.site-branding {
+  z-index: 1;
+}
+.social-header img {
+  margin-left: 1em;
+  height: 3em;
+  margin-top: 0.5em;
+}
+.social-header img:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*main*/
+.jumbotron-one {
+  background-image: url(images/baners/pic1.png);
+  background-repeat: no-repeat;
+}
+.jumbotron-one div {
+  background-color: #fff;
+}
+.jumbotron-two {
+  background-image: url(images/baners/pic2.png);
+  background-repeat: no-repeat;
+}
+.jumbotron-two div {
+  background-color: #fff;
+}
+.jumbotron-three {
+  background-image: url(images/baners/pic3.png);
+  background-repeat: no-repeat;
+}
+.jumbotron-three div {
+  background-color: #fff;
+}
+.site-footer {
+  background-color: #eb4e15;
+  color: #fff;
 }
