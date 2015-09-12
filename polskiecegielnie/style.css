@@ -135,10 +135,7 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 /*main*/
-.banner {
-  display: box;
-}
-.banner div {
+.banner figcaption {
   border: 5px solid red;
 }
 .banner h3 {

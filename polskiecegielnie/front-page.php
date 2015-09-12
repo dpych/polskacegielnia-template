@@ -4,9 +4,10 @@
 
     <figure class="banner row">
         <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
-        <figcaption class=""col-md-3>
+        <figcaption class="col-md-3">
             <h3>Lorem Ipsum</h3>
             <p>jakis zajebisty tesk opisujacy jak bardzo zajebiusta cegle produjemy</p>
+            <button class="btn ">wiecej</button>
         </figcaption>
     </figure>
     <div class="panel">
