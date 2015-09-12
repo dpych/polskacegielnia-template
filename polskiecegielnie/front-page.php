@@ -10,7 +10,7 @@
             <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
                 oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
                 certyfikowanych marką Polska Cegła.</p>
-            <a href="/index.php/o-nas" class="thumbnail col-md-4 col-md-offset-8">
+            <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
                 wiecej > 
             </a>
         </figcaption>

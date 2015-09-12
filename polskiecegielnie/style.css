@@ -156,6 +156,7 @@
   font-weight: bold;
   color: #ffffff;
   background-color: #eb4e15;
+  padding: 1em;
 }
 .jumbotron-two {
   background-image: url(images/baners/pic2.png);
@@ -177,4 +178,7 @@
 }
 #menu-fooder {
   background-color: #a8adaf;
+}
+body {
+  font-size: 16px;
 }
