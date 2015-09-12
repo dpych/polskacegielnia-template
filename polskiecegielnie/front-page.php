@@ -1,17 +1,18 @@
 <?php get_header(); ?>
 
 <main col-sm-12 >
+
+    <figure class="col-md-12 banner">
+            <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
+            <fingerCaption class=""col-md-3">
+            <h3>Lorem Ipsum</h3>
+            <p>jakis zajebisty tesk opisujacy jak bardzo zajebiusta cegle produjemy</p>
+        </fingerCaption>
+
+
+
+    </figure>
     <div class="panel">
-        <div class="jumbotron jumbotron-one row" >
-            <div class="col-md-offset-9 col-md-3">
-                <h1>Hello, world!</h1>
-                <p>...</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-
-            </div>
-
-        </div>
-
         <div class="row ">
             <div class=" col-md-3">
                 <a href="#" class="thumbnail">

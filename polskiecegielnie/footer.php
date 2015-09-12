@@ -25,18 +25,18 @@
 
                 <?php
                 wp_nav_menu(array(
-                    'theme_location' => 'primary',
+                    'theme_location' => 'footer-links',
                     'depth' => 2,
                     'container' => 'div',
                     'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
-                    'menu_class' => 'nav navbar-nav',
+                    'menu_class' => 'nav navbar-nav col-md-8',
                     'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
                     'walker' => new wp_bootstrap_navwalker())
                 );
                 ?>
             </div>
         </nav>
-        <div class="container col-md-1 col-md-offset-3">
+        <div class="container col-md-3 col-md-offset-1">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/how_order.png">
         </div>
 
@@ -45,6 +45,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
 
 </body>
 </html>

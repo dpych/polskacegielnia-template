@@ -135,12 +135,18 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 /*main*/
-.jumbotron-one {
-  background-image: url(images/baners/pic1.png);
-  background-repeat: no-repeat;
+.banner fingerCaption {
+  border-style: solid;
+  border-width: medium;
+  border-color: #eb4e15;
 }
-.jumbotron-one div {
-  background-color: #fff;
+.banner fingerCaption h3 {
+  text-align: center;
+  color: #eb4e15;
+}
+.banner fingerCaption p {
+  text-align: center;
+  padding-top: 1em;
 }
 .jumbotron-two {
   background-image: url(images/baners/pic2.png);
@@ -157,6 +163,9 @@
   background-color: #fff;
 }
 .site-footer {
-  background-color: #eb4e15;
+  background-color: #a8adaf;
   color: #fff;
+}
+#menu-fooder {
+  background-color: #a8adaf;
 }
