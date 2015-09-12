@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<main col-sm-12 >
+<main class="container" >
 
-    <figure class="col-md-12 banner row">
+    <figure class="banner row">
         <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
         <figcaption class=""col-md-3>
             <h3>Lorem Ipsum</h3>
