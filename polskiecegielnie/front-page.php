@@ -12,17 +12,17 @@
     <div class="panel">
         <div class="row ">
             <div class=" col-md-3">
-                <a href="#" class="thumbnail">
+                <a href="/index.php/zapytaj-eksperta" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/question.png">
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1">
-                <a href="#" class="thumbnail">
+                <a href="/index.php/jak-zamowic" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/how_order.png">
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1">
-                <a href="#" class="thumbnail">
+                <a href="/index.php/artykuly" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/simple_choose.png">
                 </a>
             </div>
@@ -41,17 +41,17 @@
 
         <div class="row ">
             <div class=" col-md-3">
-                <a href="#" class="thumbnail">
+                <a href="/index.php/artykuly/tylko-cegla-ceramiczna-jest-ponadczasowa-zdrowa-ekologiczna-ognioodporna-naturalna-sprawdzona-zawsze-modna" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/Ryszard_Belak.png">
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1">
-                <a href="#" class="thumbnail">
+                <a href="index.php/artykuly/jak-zbudowac-dom-z-ceramiki-budowlanej-ryszard-belak-artur-stawski" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/Artur_Stawski.png">
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1">
-                <a href="#" class="thumbnail">
+                <a href="/index.php/artykuly" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/simple_choose.png">
                 </a>
             </div>
