@@ -135,6 +135,10 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 /*main*/
+.banner {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
 .banner figcaption {
   border: 5px solid red;
 }
@@ -145,6 +149,13 @@
 .banner p {
   text-align: center;
   padding-top: 1em;
+  color: #000;
+}
+.banner a {
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #eb4e15;
 }
 .jumbotron-two {
   background-image: url(images/baners/pic2.png);

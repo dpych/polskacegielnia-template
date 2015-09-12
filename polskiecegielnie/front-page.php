@@ -3,20 +3,23 @@
 <main class="container" >
 
     <figure class="banner row">
-        <a href="/index.php/o-nas" class="thumbnail">
-            <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
-            <figcaption class="col-md-3">
-                <h3>Witamy na portalu POLSKA CEGŁA</h3>
-                <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
-                    oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
-                    certyfikowanych marką Polska Cegła.</p>
-                <button class="btn ">wiecej</button>
-            </figcaption>
-        </a>
+
+        <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
+        <figcaption class="col-md-3">
+            <h3><b>Witamy na portalu POLSKA CEGŁA</b></h3>
+            <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
+                oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
+                certyfikowanych marką Polska Cegła.</p>
+            <a href="/index.php/o-nas" class="thumbnail col-md-4 col-md-offset-8">
+                wiecej > 
+            </a>
+        </figcaption>
     </figure>
-    <div class="panel">
+
+
+    <div class="container">
         <div class="row ">
-            <div class=" col-md-3">
+            <div class=" col-md-3 ">
                 <a href="/index.php/zapytaj-eksperta" class="thumbnail">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/question.png">
                 </a>
