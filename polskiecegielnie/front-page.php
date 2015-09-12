@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
-<main col-sm-12 >
+<main class="container" >
 
+<<<<<<< HEAD
     <figure class="col-md-12 banner row">
         <a href="/index.php/o-nas" class="thumbnail">
             <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
@@ -12,6 +13,14 @@
                     certyfikowanych marką Polska Cegła.</p>
             </figcaption>
         </a>
+=======
+    <figure class="banner row">
+        <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
+        <figcaption class=""col-md-3>
+            <h3>Lorem Ipsum</h3>
+            <p>jakis zajebisty tesk opisujacy jak bardzo zajebiusta cegle produjemy</p>
+        </figcaption>
+>>>>>>> e53de0b4f3fd157f17529b318d4ca177b03c76b4
     </figure>
     <div class="panel">
         <div class="row ">
