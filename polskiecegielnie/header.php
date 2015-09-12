@@ -73,7 +73,6 @@
                     <div class="social-header col-md-3 col-md-offset-1 ">
                         <div class="row">
                             <?php unite_social(); // Social icons in header ?>          
-                        <img class="col-md-offset-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/fb.png" />
                         <img class="col-md-offset-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/yt.png" />
                         </div>
                         

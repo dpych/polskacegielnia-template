@@ -135,16 +135,14 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 /*main*/
-.banner fingerCaption {
-  border-style: solid;
-  border-width: medium;
-  border-color: #eb4e15;
+.banner figcaption {
+  border: 5px solid red;
 }
-.banner fingerCaption h3 {
+.banner h3 {
   text-align: center;
   color: #eb4e15;
 }
-.banner fingerCaption p {
+.banner p {
   text-align: center;
   padding-top: 1em;
 }
