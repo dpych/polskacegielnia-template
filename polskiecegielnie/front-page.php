@@ -36,16 +36,19 @@
             </div>
         </div>
     </div>
+    <figure class="banner row">
+
+        <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic2.png">
+        <figcaption class="col-md-3">
+            <h3><b>Porady</b></h3>
+            <p>Tutaj poradzimy jaką wybrać cegłe oraz jak zbudować dom</p>
+            <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
+                wiecej > 
+            </a>
+        </figcaption>
+    </figure>
     <div class="panel">
-        <div class="jumbotron jumbotron-two row" >
-            <div class="col-md-offset-9 col-md-3">
-                <h1>Hello, world!</h1>
-                <p>...</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
 
-            </div>
-
-        </div>
 
         <div class="row ">
             <div class=" col-md-3">
@@ -65,90 +68,93 @@
             </div>
         </div>
     </div>
-    <div class="panel">
-        <div class="jumbotron jumbotron-three row" >
-            <div class="col-md-offset-9 col-md-3">
-                <h1>Kontakt</h1>
-                <p>Adresy<br/>
-Siedziba Zrzeszenia:<br/>
-37 – 470 Zaklików<br/>
-ul. Słubickiego 27<br/><br/>
- 
-Biuro Zrzeszenia:<br/>
-23 – 200 Kraśnik<br/>
-Plac Wolności 3<br/><br/>
- 
-Telefony kontaktowe:<br/>
-tel. 81/825-05-31<br/>
-tel. 81/825-38-31<br/><br/>
 
-E-mail: zrzeszenie@cerbud.org.pl
-</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    <figure class="banner row">
 
-            </div>
+        <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic3.png">
+        <figcaption class="col-md-3">
+            <h3>Kontakt</h3>
+            <p>Adresy<br/>
+                Siedziba Zrzeszenia:<br/>
+                37 – 470 Zaklików<br/>
+                ul. Słubickiego 27<br/><br/>
 
-        </div>
-        <div class="panel">
-            <div id="map"></div>
-            <div id="save-widget">
-                <strong>Google Sydney</strong>
-                <p>We’re located on the water in Pyrmont, with views of the Sydney Harbour Bridge, The
-                    Rocks and Darling Harbour. Our building is the greenest in Sydney. Inside, we have a
-                    "living wall" made of plants, a tire swing, a library with a nap pod and some amazing
-                    baristas.</p>
-            </div>
-            <script>
-                /*
-                 * This sample uses a custom control to display the SaveWidget. Custom
-                 * controls can be used in place of the default Info Window to create a
-                 * custom UI.
-                 * This sample uses a Place ID to reference Google Sydney. Place IDs are
-                 * stable values that uniquely reference a place on a Google Map and are
-                 * documented in detail at:
-                 * https://developers.google.com/maps/documentation/javascript/places#placeid
-                 */
+                Biuro Zrzeszenia:<br/>
+                23 – 200 Kraśnik<br/>
+                Plac Wolności 3<br/><br/>
 
-                function initMap() {
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 17,
-                        center: {lat: -33.8666, lng: 151.1958},
-                        mapTypeControlOptions: {
-                            mapTypeIds: [
-                                google.maps.MapTypeId.ROADMAP,
-                                google.maps.MapTypeId.SATELLITE
-                            ],
-                            position: google.maps.ControlPosition.BOTTOM_LEFT
-                        }
-                    });
+                Telefony kontaktowe:<br/>
+                tel. 81/825-05-31<br/>
+                tel. 81/825-38-31<br/><br/>
 
-                    var widgetDiv = document.getElementById('save-widget');
-                    map.controls[google.maps.ControlPosition.TOP_LEFT].push(widgetDiv);
+                E-mail: zrzeszenie@cerbud.org.pl
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Wiecej > </a></p>
+        </figcaption>
+    </figure>
 
-                    // Append a Save Control to the existing save-widget div.
-                    var saveWidget = new google.maps.SaveWidget(widgetDiv, {
-                        place: {
-                            // ChIJN1t_tDeuEmsRUsoyG83frY4 is the place Id for Google Sydney.
-                            placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4',
-                            location: {lat: -33.866647, lng: 151.195886}
-                        },
-                        attribution: {
-                            source: 'Google Maps JavaScript API',
-                            webUrl: 'https://developers.google.com/maps/'
-                        }
-                    });
 
-                    var marker = new google.maps.Marker({
-                        map: map,
-                        position: saveWidget.getPlace().location
-                    });
-                }
-
-            </script>
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiIOcLl1FMZf7kMQYEyMo_SAj5tqhSdf4&callback=initMap&signed_in=true" async defer>
-            </script>
-        </div>
+</div>
+<div class="panel">
+    <div id="map"></div>
+    <div id="save-widget">
+        <strong>Google Sydney</strong>
+        <p>We’re located on the water in Pyrmont, with views of the Sydney Harbour Bridge, The
+            Rocks and Darling Harbour. Our building is the greenest in Sydney. Inside, we have a
+            "living wall" made of plants, a tire swing, a library with a nap pod and some amazing
+            baristas.</p>
     </div>
+    <script>
+        /*
+         * This sample uses a custom control to display the SaveWidget. Custom
+         * controls can be used in place of the default Info Window to create a
+         * custom UI.
+         * This sample uses a Place ID to reference Google Sydney. Place IDs are
+         * stable values that uniquely reference a place on a Google Map and are
+         * documented in detail at:
+         * https://developers.google.com/maps/documentation/javascript/places#placeid
+         */
+
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: {lat: -33.8666, lng: 151.1958},
+                mapTypeControlOptions: {
+                    mapTypeIds: [
+                        google.maps.MapTypeId.ROADMAP,
+                        google.maps.MapTypeId.SATELLITE
+                    ],
+                    position: google.maps.ControlPosition.BOTTOM_LEFT
+                }
+            });
+
+            var widgetDiv = document.getElementById('save-widget');
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(widgetDiv);
+
+            // Append a Save Control to the existing save-widget div.
+            var saveWidget = new google.maps.SaveWidget(widgetDiv, {
+                place: {
+                    // ChIJN1t_tDeuEmsRUsoyG83frY4 is the place Id for Google Sydney.
+                    placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4',
+                    location: {lat: -33.866647, lng: 151.195886}
+                },
+                attribution: {
+                    source: 'Google Maps JavaScript API',
+                    webUrl: 'https://developers.google.com/maps/'
+                }
+            });
+
+            var marker = new google.maps.Marker({
+                map: map,
+                position: saveWidget.getPlace().location
+            });
+        }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiIOcLl1FMZf7kMQYEyMo_SAj5tqhSdf4&callback=initMap&signed_in=true" async defer>
+    </script>
+</div>
+</div>
 </main><!-- #main -->
 
 </div><!-- #primary -->
