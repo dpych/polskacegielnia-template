@@ -136,42 +136,189 @@
 }
 /*main*/
 .banner {
-  margin-bottom: 2em;
-  margin-top: 2em;
+  background-repeat: no-repeat;
+  margin-top: 4em;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
 }
-.banner figcaption {
-  border: 5px solid red;
+.banner > div {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 20%);
+  height: 25em;
 }
-.banner h3 {
+.banner > div > * {
+  padding-left: 25%;
+}
+.banner > div h2 {
   text-align: center;
   color: #eb4e15;
 }
-.banner p {
-  text-align: center;
+.banner > div p {
+  text-align: left;
   padding-top: 1em;
+  padding-left: 30%;
   color: #000;
 }
-.banner a {
+.banner > div p strong {
+  color: #eb4e15;
+}
+.banner > div a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
   border: none;
   font-weight: bold;
   color: #ffffff;
   background-color: #eb4e15;
   padding: 1em;
 }
-.jumbotron-two {
+.banner-first {
+  background-repeat: no-repeat;
+  margin-top: 4em;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+  background-image: url(images/baners/pic1.png);
+}
+.banner-first > div {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 20%);
+  height: 25em;
+}
+.banner-first > div > * {
+  padding-left: 25%;
+}
+.banner-first > div h2 {
+  text-align: center;
+  color: #eb4e15;
+}
+.banner-first > div p {
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 30%;
+  color: #000;
+}
+.banner-first > div p strong {
+  color: #eb4e15;
+}
+.banner-first > div a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #eb4e15;
+  padding: 1em;
+}
+.banner-second {
+  background-repeat: no-repeat;
+  margin-top: 4em;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
   background-image: url(images/baners/pic2.png);
+}
+.banner-second > div {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 20%);
+  height: 25em;
+}
+.banner-second > div > * {
+  padding-left: 25%;
+}
+.banner-second > div h2 {
+  text-align: center;
+  color: #eb4e15;
+}
+.banner-second > div p {
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 30%;
+  color: #000;
+}
+.banner-second > div p strong {
+  color: #eb4e15;
+}
+.banner-second > div a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #eb4e15;
+  padding: 1em;
+}
+.banner-third {
   background-repeat: no-repeat;
-}
-.jumbotron-two div {
-  background-color: #fff;
-}
-.jumbotron-three {
+  margin-top: 4em;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
   background-image: url(images/baners/pic3.png);
-  background-repeat: no-repeat;
 }
-.jumbotron-three div {
-  background-color: #fff;
+.banner-third > div {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 20%);
+  height: 25em;
 }
+.banner-third > div > * {
+  padding-left: 25%;
+}
+.banner-third > div h2 {
+  text-align: center;
+  color: #eb4e15;
+}
+.banner-third > div p {
+  text-align: left;
+  padding-top: 1em;
+  padding-left: 30%;
+  color: #000;
+}
+.banner-third > div p strong {
+  color: #eb4e15;
+}
+.banner-third > div a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #eb4e15;
+  padding: 1em;
+}
+/*
+.banner{
+    margin-bottom: 2em;
+    margin-top: 2em;
+    img, figcaption{
+        
+        height: 25em; 
+    } 
+    figcaption {
+        border:  5px solid red;
+    }
+
+
+    h3{
+        text-align: center;
+        color:@brick_color;
+    }
+    p{
+        text-align: center;
+        padding-top:1em;
+        color:#000;
+    }
+    .btn-more {
+        
+    }
+    a{
+        border:none;
+        font-weight:bold;
+        color:@textWhiteColor;
+        background-color:@brick_color;
+        padding: 1em;
+
+        :hower{}   
+  
+    }
+}
+*/
 .site-footer {
   background-color: #a8adaf;
   color: #fff;
@@ -180,5 +327,5 @@
   background-color: #a8adaf;
 }
 body {
-  font-size: 16px;
+  font-size: 16px ;
 }

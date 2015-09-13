@@ -143,13 +143,77 @@
 }
 
 /*main*/
+.banner{  
+    background-repeat: no-repeat;
+    margin-top:4em;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    
+    >div{
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%);
+        height: 25em; 
+            >*{
+                padding-left:25%;
+            }
+            h2{
+                text-align: center;
+                color:@brick_color;
+            }
+            p{
+                text-align: left;
+                padding-top:1em;
+                padding-left:30%;
+                color:#000;
+                strong{
+                   color:@brick_color;
+                }   
+            }
+            .btn-more {
+        
+            }
+            
+            a{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+                border:none;
+                font-weight:bold;
+                color:@textWhiteColor;
+                background-color:@brick_color;
+                padding: 1em;
+                :hower{}     
+            }
+        }
+  }
+
+.banner-first{
+        .banner;
+      background-image: url(images/baners/pic1.png);
+}
+.banner-second{
+    .banner;
+    background-image: url(images/baners/pic2.png);
+}
+.banner-third{
+    .banner;
+    background-image: url(images/baners/pic3.png);
+
+}
+
+
+/*
 .banner{
     margin-bottom: 2em;
     margin-top: 2em;
-   
+    img, figcaption{
+        
+        height: 25em; 
+    } 
     figcaption {
         border:  5px solid red;
     }
+
 
     h3{
         text-align: center;
@@ -170,27 +234,12 @@
         background-color:@brick_color;
         padding: 1em;
 
-        :hower{}
-       
+        :hower{}   
   
     }
 }
-.jumbotron-two{
-    background-image: url(images/baners/pic2.png);
-    background-repeat: no-repeat;
-    div{
+*/
 
-    background-color:#fff;
-}
-}
-.jumbotron-three{
-    background-image: url(images/baners/pic3.png);
-    background-repeat: no-repeat;
-    div{
-
-    background-color:#fff;
-}
-}
 .site-footer{
     background-color:#a8adaf;
     color:#fff;
@@ -200,5 +249,5 @@
 }
 
 body{
-    font-size:16px;
+    font-size:16px ;
 }

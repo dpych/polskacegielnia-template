@@ -2,9 +2,9 @@
 
 <main class="container" >
 
-    <figure class="banner row">
+    <!--figure class="banner row">
 
-        <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
+        <img class="img-responsive col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic1.png">
         <figcaption class="col-md-3">
             <h3><b>Witamy na portalu POLSKA CEGŁA</b></h3>
             <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
@@ -14,7 +14,23 @@
                 wiecej > 
             </a>
         </figcaption>
-    </figure>
+    </figure-->
+
+    <div class="banner-first container">
+
+
+        <div class="description col-md-5 col-md-offset-7">
+
+            <h2><b>Witamy na portalu POLSKA CEGŁA</b></h2>
+            <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
+                oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
+                certyfikowanych marką Polska Cegła.</p>
+            <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
+                wiecej > 
+            </a>
+
+        </div>
+    </div>
 
 
     <div class="container">
@@ -36,7 +52,7 @@
             </div>
         </div>
     </div>
-    <figure class="banner row">
+    <!--figure class="banner row">
 
         <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic2.png">
         <figcaption class="col-md-3">
@@ -46,7 +62,21 @@
                 wiecej > 
             </a>
         </figcaption>
-    </figure>
+    </figure-->
+    <div class="banner-second container">
+
+
+        <div class="description col-md-5 col-md-offset-7">
+
+            <h2><b>Porady</b></h2>
+            <p>Tutaj poradzimy jaką wybrać cegłe oraz jak zbudować dom</p>
+            <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
+                wiecej > 
+            </a>
+
+        </div>
+    </div>
+
     <div class="panel">
 
 
@@ -68,8 +98,30 @@
             </div>
         </div>
     </div>
+    <div class="banner-third container">
 
-    <figure class="banner row">
+
+        <div class="description col-md-5 col-md-offset-7">
+            <h2>Kontakt</h2>
+            <h4>Adresy:</h4>
+            <p><strong>Siedziba Zrzeszenia:</strong><br/>
+            37 – 470 Zaklików<br/>
+            ul. Słubickiego 27<br/><br/>
+
+            <strong>Biuro Zrzeszenia:</strong><br/>
+            23 – 200 Kraśnik<br/>
+            Plac Wolności 3<br/><br/>
+            </p>
+            <h4>Telefony kontaktowe:</h4>
+            <p>tel. 81/825-05-31<br/>
+            tel. 81/825-38-31<br/><br/>
+
+            E-mail: zrzeszenie@cerbud.org.pl
+            </p>
+
+        </div>
+    </div>
+    <!--figure class="banner row">
 
         <img class="col-md-9" src="<?php bloginfo('stylesheet_directory'); ?>/images/baners/pic3.png">
         <figcaption class="col-md-3">
@@ -89,9 +141,9 @@
 
                 E-mail: zrzeszenie@cerbud.org.pl
             </p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Wiecej > </a></p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Wiecej > </a>
         </figcaption>
-    </figure>
+    </figure-->
 
 
 </div>
@@ -116,6 +168,7 @@
          */
 
         function initMap() {
+            console.log('d')
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 17,
                 center: {lat: -33.8666, lng: 151.1958},
