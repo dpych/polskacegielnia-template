@@ -40,7 +40,7 @@
                             <div id="logo">
                                 <a href="<?php echo esc_url(home_url('/')); ?>">
                                     <img src="<?php header_image(); ?>"  /></a>
-                                     <img src="<?php bloginfo('stylesheet_directory'); ?>images/log_icon/logo.png" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo('name'); ?>"/>
+                                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/logo.png" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo('name'); ?>"/>
                             </div><!-- end of #logo -->
 
                         <?php endif; // header image was removed (again) ?>
