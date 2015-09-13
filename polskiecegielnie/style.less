@@ -173,17 +173,22 @@
             }
             
             a{
-            position: absolute;
-            left: 0;
-            bottom: 0;
+                position: absolute;
+                left: 0;
+                bottom: 0;
 
                 border:none;
                 font-weight:bold;
                 color:@textWhiteColor;
-                background-color:@brick_color;
+                background-color:#a8adaf;
                 padding: 1em;
-                :hower{}     
+                 
             }
+a.thumbnail.active:hover{
+                    background-color:@brick_color;
+                    
+            }
+            
         }
   }
 
@@ -253,4 +258,7 @@
 
 body{
     font-size:16px ;
+    h1, h2, h3{
+        color:@brick_color;
+    }
 }

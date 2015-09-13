@@ -168,8 +168,11 @@
   border: none;
   font-weight: bold;
   color: #ffffff;
-  background-color: #eb4e15;
+  background-color: #a8adaf;
   padding: 1em;
+}
+.banner > div a.thumbnail.active:hover {
+  background-color: #eb4e15;
 }
 .banner-first {
   background-repeat: no-repeat;
@@ -205,8 +208,11 @@
   border: none;
   font-weight: bold;
   color: #ffffff;
-  background-color: #eb4e15;
+  background-color: #a8adaf;
   padding: 1em;
+}
+.banner-first > div a.thumbnail.active:hover {
+  background-color: #eb4e15;
 }
 .banner-second {
   background-repeat: no-repeat;
@@ -242,8 +248,11 @@
   border: none;
   font-weight: bold;
   color: #ffffff;
-  background-color: #eb4e15;
+  background-color: #a8adaf;
   padding: 1em;
+}
+.banner-second > div a.thumbnail.active:hover {
+  background-color: #eb4e15;
 }
 .banner-third {
   background-repeat: no-repeat;
@@ -279,8 +288,11 @@
   border: none;
   font-weight: bold;
   color: #ffffff;
-  background-color: #eb4e15;
+  background-color: #a8adaf;
   padding: 1em;
+}
+.banner-third > div a.thumbnail.active:hover {
+  background-color: #eb4e15;
 }
 /*
 .banner{
@@ -331,4 +343,9 @@
 }
 body {
   font-size: 16px ;
+}
+body h1,
+body h2,
+body h3 {
+  color: #eb4e15;
 }

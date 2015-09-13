@@ -26,7 +26,8 @@
                 oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
                 certyfikowanych marką Polska Cegła.</p>
             <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
-                wiecej > 
+               <strong>wiecej ></strong>
+ 
             </a>
 
         </div>
