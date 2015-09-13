@@ -321,7 +321,10 @@
 */
 .site-footer {
   background-color: #a8adaf;
-  color: #fff;
+  color: #000;
+}
+.site-footer .nav.nav-pills a {
+  color: #000;
 }
 #menu-fooder {
   background-color: #a8adaf;

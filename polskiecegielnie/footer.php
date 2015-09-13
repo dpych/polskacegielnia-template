@@ -11,31 +11,24 @@
 
 <footer  class="site-footer" role="contentinfo">
     <div class="row">
-        <nav class="navbar navbar-default col-md-8" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+        <div class="container col-md-7 col-md-offset-1" >
+            <h2>Informacje</h2>
+            <ul class="nav nav-pills container ">
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Oferta</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Promocje</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Produkty powiazane</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Projekty</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Porady</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Dlaczego Cegła</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Regulmin</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Jak zamówić</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Koszyk</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Realizacje</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Pytanie Do Eksperta</a></li>
+                <li role="presentation" class="col-md-3 col-sd-6"><a href="#">Kontakt</a></li>
+            </ul>
 
-                </div>
-
-                <?php
-                wp_nav_menu(array(
-                    'theme_location' => 'footer-links',
-                    'depth' => 2,
-                    'container' => 'div',
-                    'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
-                    'menu_class' => 'nav navbar-nav col-md-8',
-                    'fallback_cb' => 'wp_bootstrap_navwalker::fallback',
-                    'walker' => new wp_bootstrap_navwalker())
-                );
-                ?>
-            </div>
-        </nav>
+        </div>
         <div class="container col-md-3 col-md-offset-1">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/how_order.png">
         </div>
