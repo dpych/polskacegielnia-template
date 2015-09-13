@@ -147,7 +147,7 @@
 
 
 </div>
-<div class="panel">
+<!--div class="panel">
     <div id="map"></div>
     <div id="save-widget">
         <strong>Google Sydney</strong>
@@ -206,7 +206,7 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiIOcLl1FMZf7kMQYEyMo_SAj5tqhSdf4&callback=initMap&signed_in=true" async defer>
     </script>
-</div>
+</div-->
 </div>
 </main><!-- #main -->
 
