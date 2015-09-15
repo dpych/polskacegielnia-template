@@ -349,3 +349,7 @@ body h2,
 body h3 {
   color: #eb4e15;
 }
+#map-canvas {
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
