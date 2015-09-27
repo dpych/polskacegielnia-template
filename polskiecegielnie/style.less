@@ -17,7 +17,7 @@
 */
 @brick_color:rgba(235, 78, 21,1);
 @textWhiteColor: #fff;
-
+@gray: #a8adaf;
 #page{
     .header-area{
         background-color:@brick_color;
@@ -180,7 +180,7 @@
             border:none;
             font-weight:bold;
             color:@textWhiteColor;
-            background-color:#a8adaf;
+            background-color:@gray;
             padding: 1em;
 
         }
@@ -246,14 +246,14 @@
 */
 
 .site-footer{
-    background-color:#a8adaf;
+    background-color:@gray;
     color:#000;
     .nav.nav-pills  a{
         color:#000;
     }
 }
 #menu-fooder{
-    background-color:#a8adaf;
+    background-color:@gray;
 }
 
 body{
@@ -265,5 +265,28 @@ body{
 #map-canvas{
     margin-top: 10em;
     margin-bottom:  10em;
- 
+
+}
+
+.site-main{
+    .entry-title{
+        color:@brick_color; 
+    }
+    .entry-header{
+        color:@brick_color;
+    }
+
+} 
+.entry-title{
+    h1{
+        color:@brick_color;
+    }
+}
+.entry-content{
+
+    b, strong {
+        font-weight: 700;
+        padding: 1em 0 1.5em 1em;
+        font-size: 1.5em;
+    }
 }

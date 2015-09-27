@@ -353,3 +353,18 @@ body h3 {
   margin-top: 10em;
   margin-bottom: 10em;
 }
+.site-main .entry-title {
+  color: #eb4e15;
+}
+.site-main .entry-header {
+  color: #eb4e15;
+}
+.entry-title h1 {
+  color: #eb4e15;
+}
+.entry-content b,
+.entry-content strong {
+  font-weight: 700;
+  padding: 1em 0 1.5em 1em;
+  font-size: 1.5em;
+}
