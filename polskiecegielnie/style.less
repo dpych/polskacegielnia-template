@@ -168,15 +168,7 @@
                 color:@brick_color;
             }   
         }
-        .btn-more {
-
-        }
-
         a{
-            position: absolute;
-            left: 0;
-            bottom: 0;
-
             border:none;
             font-weight:bold;
             color:@textWhiteColor;
@@ -289,7 +281,33 @@ body{
         font-size: 1.5em;
     }
 }
+div.tile{
+    img{
+        margin: 0 auto;
+    }
+       
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    min-height: 23em;
+}
+div.tile>img{
+    padding-top: 1em;
+}
+a.btn.more {
+    color:@textWhiteColor;
+    background-color:@gray;
+    position:absolute;
+    bottom:0;
+    right:0;
+
+}
 a.btn.more:hover {
     background-color: @brick_color;
     color: @textWhiteColor;
-}
+}  
+
+/* CSS Style Blockquote By Spice Up Your Blog */
+
+
+
+

@@ -13,7 +13,6 @@
                 certyfikowanych marką Polska Cegła.</p>
             <a href="/index.php/o-nas" class="btn more col-md-4 col-md-offset-8">
                 <strong>wiecej ></strong>
-
             </a>
 
         </div>
@@ -22,19 +21,26 @@
 
     <div class="container">
         <div class="row ">
-            <div class=" col-md-3 ">
-                <a href="/index.php/zapytaj-eksperta" class="thumbnail">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/question.png">
+            <div class=" col-md-3 tile">
+                <h2 class="text-center">Masz pytanie?</h2>
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/question.png"/>
+                <a href="/index.php/zapytaj-eksperta" class="btn more col-md-4 col-md-offset-8">
+                    <strong>wiecej ></strong>
                 </a>
             </div>
-            <div class=" col-md-3 col-md-offset-1">
-                <a href="/index.php/jak-zamowic" class="thumbnail">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/how_order.png">
+            <div class=" col-md-3 col-md-offset-1 tile">
+                <h2 class="text-center">Jak zamówić</h2>
+                <img  class="container" src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/how_order.png"/> 
+                <p class="text-center">Tu dowiesz się jak zamówić produkty</p>
+                <a href="/index.php/jak-zamowic" class="btn more col-md-4 col-md-offset-8">
+                    <strong>wiecej ></strong>
                 </a>
             </div>
-            <div class=" col-md-3 col-md-offset-1">
-                <a href="/index.php/artykuly" class="thumbnail">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/simple_choose.png">
+            <div class=" col-md-3 col-md-offset-1 tile">
+                <h2 class="text-center ">Prosty wybor</h2>
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/simple_choose.png"/>
+                <a href="/index.php/artykuly" class="btn more col-md-4 col-md-offset-8" >
+                    <strong>wiecej ></strong>
                 </a>
             </div>
         </div>
@@ -57,19 +63,39 @@
 
 
         <div class="row ">
-            <div class=" col-md-3">
-                <a href="/index.php/artykuly/tylko-cegla-ceramiczna-jest-ponadczasowa-zdrowa-ekologiczna-ognioodporna-naturalna-sprawdzona-zawsze-modna" class="thumbnail">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/Ryszard_Belak.png">
+            <div class=" col-md-3 tile">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/Ryszard Belak.png">
+
+                <h2>Ryszard Belak</h2>
+                <p>
+                    <img src="http://i.imgur.com/uoHCjSK.png" style="height: 2em; background-color: rgba(235, 78, 21,1)"/>
+                <quote>Tylko cegła ceramiczna, jest pondczasowa, zdrowa, ekologoczna,  ognioodporna, naturalna, sprawdzona i zawsze modna</quote>
+                <img src="http://i.imgur.com/m3HnqqU.png" style="height: 2em; background-color: rgba(235, 78, 21,1)"/>
+
+                </p>
+                <a href="/index.php/artykuly/tylko-cegla-ceramiczna-jest-ponadczasowa-zdrowa-ekologiczna-ognioodporna-naturalna-sprawdzona-zawsze-modna" class="btn more col-md-4 col-md-offset-8" >
+                    <strong>wiecej ></strong>
                 </a>
             </div>
-            <div class=" col-md-3 col-md-offset-1">
-                <a href="index.php/artykuly/jak-zbudowac-dom-z-ceramiki-budowlanej-ryszard-belak-artur-stawski" class="thumbnail">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/Artur_Stawski.png">
+            <div class=" col-md-3 col-md-offset-1 tile">
+
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/ArturStawski.png">
+                <h2>Artur Stawski</h2>
+                <p>
+                    <img src="http://i.imgur.com/uoHCjSK.png" style="height: 2em; background-color: rgba(235, 78, 21,1)"/>
+
+                <quote>Jak zbudować dom z ceramiki budowlanej</quote>
+                <img src="http://i.imgur.com/m3HnqqU.png" style="height: 2em; background-color: rgba(235, 78, 21,1)"/>
+                </p>
+                <a href="index.php/artykuly/jak-zbudowac-dom-z-ceramiki-budowlanej-ryszard-belak-artur-stawski" class="btn more col-md-4 col-md-offset-8" >
+                    <strong>wiecej ></strong>
                 </a>
             </div>
-            <div class=" col-md-3 col-md-offset-1">
-                <a href="/index.php/artykuly" class="thumbnail">
-                    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/simple_choose.png">
+            <div class=" col-md-3 col-md-offset-1 tile">
+                <h2 class="text-center ">Prosty wybor</h2>
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/simple_choose.png"/>
+                <a href="/index.php/artykuly" class="btn more col-md-4 col-md-offset-8" >
+                    <strong>wiecej ></strong>
                 </a>
             </div>
         </div>
@@ -145,7 +171,7 @@
                             {pos: {lat: 50.899066581758, let: 22.1645749098847}, description: '%3Cdiv%20style%3D%22width%3A350px%3B%20height%3A120px%3B%22%3E%3Cimg%20alt%3D%22logo%22%20src%3D%22http%3A%2F%2Fwww.trojanowscy.krasnik.pl%2Fpics%2Fmain%2Flogo.jpg%22%20style%3D%22margin%3A%205px%2015px%2015px%2015px%3B%20max-height%3A%2050px%3B%20max-width%3A%20280px%3B%20float%3A%20left%3B%22%20%2F%3E%3Cstrong%3ECegielnia%20Trojanowscy%3C%2Fstrong%3E%3Cbr%20%2F%3E23-200%20Kra%C5%9Bnik%3Cbr%20%2F%3E%20Sp%C5%82awy%20II%2022%3Cbr%20%2F%3E%3Cbr%20%2F%3E%3Ca%20target%3D%22_blank%22%20href%3D%22www.trojanowscy.krasnik.pl%22%3Ewww.trojanowscy.krasnik.pl%3C%2Fa%3E%3Cbr%20%2F%3E%3Ca%20href%3D%22mailto%3Abiuro%40trojanowscy.krasnik.pl%22%3Ebiuro%40trojanowscy.krasnik.pl%3C%2Fa%3E%3Cbr%20%2F%3E%3C%2Fdiv%3E'},
                             {pos: {lat: 50.9271067150396, let: 22.1871042251587}, description: '%3Cdiv%20style%3D%22width%3A350px%3B%20height%3A120px%3B%22%3E%3Cimg%20alt%3D%22logo%22%20src%3D%22http%3A%2F%2Fpolskacegla.pl%2FCMS%2FIMGB%2F428_Ceramika_KUFEL_logo%20orgi.JPG%22%20style%3D%22margin%3A%205px%2015px%2015px%2015px%3B%20max-height%3A%2050px%3B%20max-width%3A%20280px%3B%20float%3A%20left%3B%22%20%2F%3E%3Cstrong%3ECeramika%20Kufel%3C%2Fstrong%3E%3Cbr%20%2F%3E23-200%20Kra%C5%9Bnik%3Cbr%20%2F%3E%20Suchynia%2C%20ul.%20Podmiejska%2012%3Cbr%20%2F%3E%3Cbr%20%2F%3E%3Ca%20target%3D%22_blank%22%20href%3D%22http%3A%2F%2Fwww.ceramika-kufel.pl%22%3Ehttp%3A%2F%2Fwww.ceramika-kufel.pl%3C%2Fa%3E%3Cbr%20%2F%3E%3Ca%20href%3D%22mailto%3Acegielnia%40ceramika-kufel.pl%22%3Ecegielnia%40ceramika-kufel.pl%3C%2Fa%3E%3Cbr%20%2F%3E%3C%2Fdiv%3E'}
                         ];
-                        console.log("s")
+                console.log("s")
                 for (var a = 0, len = dataTable.length; a < len; a++) {
                     var rec = dataTable[a],
                             pos = rec.pos;
