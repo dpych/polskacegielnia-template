@@ -12,7 +12,7 @@
                 oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
                 certyfikowanych marką Polska Cegła.</p>
             <a href="/index.php/o-nas" class="btn more col-md-4 col-md-offset-8">
-                <strong>wiecej ></strong>
+                <strong>Więcej ></strong>
             </a>
 
         </div>
@@ -25,7 +25,7 @@
                 <h2 class="text-center">Masz pytanie?</h2>
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafle/question.png"/>
                 <a href="/index.php/zapytaj-eksperta" class="btn more col-md-4 col-md-offset-8">
-                    <strong>wiecej ></strong>
+                    <strong>Więcej ></strong>
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1 tile">
@@ -33,14 +33,14 @@
                 <img  class="container" src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/how_order.png"/> 
                 <p class="text-center">Tu dowiesz się jak zamówić produkty</p>
                 <a href="/index.php/jak-zamowic" class="btn more col-md-4 col-md-offset-8">
-                    <strong>wiecej ></strong>
+                    <strong>Więcej ></strong>
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1 tile">
-                <h2 class="text-center ">Prosty wybor</h2>
+                <h2 class="text-center ">Prosty wybór</h2>
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/simple_choose.png"/>
                 <a href="/index.php/artykuly" class="btn more col-md-4 col-md-offset-8" >
-                    <strong>wiecej ></strong>
+                    <strong>Więcej ></strong>
                 </a>
             </div>
         </div>
@@ -53,7 +53,7 @@
             <h2><b>Porady</b></h2>
             <p>Tutaj poradzimy jaką wybrać cegłe oraz jak zbudować dom</p>
             <a href="/index.php/o-nas" class="btn more col-md-4 col-md-offset-8">
-                wiecej > 
+                Więcej > 
             </a>
 
         </div>
@@ -74,7 +74,7 @@
 
                 </p>
                 <a href="/index.php/artykuly/tylko-cegla-ceramiczna-jest-ponadczasowa-zdrowa-ekologiczna-ognioodporna-naturalna-sprawdzona-zawsze-modna" class="btn more col-md-4 col-md-offset-8" >
-                    <strong>wiecej ></strong>
+                    <strong>Więcej ></strong>
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1 tile">
@@ -88,14 +88,14 @@
                 <img src="http://i.imgur.com/m3HnqqU.png" style="height: 2em; background-color: rgba(235, 78, 21,1)"/>
                 </p>
                 <a href="index.php/artykuly/jak-zbudowac-dom-z-ceramiki-budowlanej-ryszard-belak-artur-stawski" class="btn more col-md-4 col-md-offset-8" >
-                    <strong>wiecej ></strong>
+                    <strong>Więcej ></strong>
                 </a>
             </div>
             <div class=" col-md-3 col-md-offset-1 tile">
-                <h2 class="text-center ">Prosty wybor</h2>
+                <h2 class="text-center ">Prosty wybór</h2>
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kafelki_bez_tekstu/simple_choose.png"/>
                 <a href="/index.php/artykuly" class="btn more col-md-4 col-md-offset-8" >
-                    <strong>wiecej ></strong>
+                    <strong>Więcej ></strong>
                 </a>
             </div>
         </div>
