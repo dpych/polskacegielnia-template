@@ -171,7 +171,7 @@
   background-color: #a8adaf;
   padding: 1em;
 }
-.banner > div a.thumbnail.active:hover {
+.banner > div a a:hover {
   background-color: #eb4e15;
 }
 .banner-first {
@@ -211,7 +211,7 @@
   background-color: #a8adaf;
   padding: 1em;
 }
-.banner-first > div a.thumbnail.active:hover {
+.banner-first > div a a:hover {
   background-color: #eb4e15;
 }
 .banner-second {
@@ -251,7 +251,7 @@
   background-color: #a8adaf;
   padding: 1em;
 }
-.banner-second > div a.thumbnail.active:hover {
+.banner-second > div a a:hover {
   background-color: #eb4e15;
 }
 .banner-third {
@@ -291,7 +291,7 @@
   background-color: #a8adaf;
   padding: 1em;
 }
-.banner-third > div a.thumbnail.active:hover {
+.banner-third > div a a:hover {
   background-color: #eb4e15;
 }
 /*
@@ -367,4 +367,8 @@ body h3 {
   font-weight: 700;
   padding: 1em 0 1.5em 1em;
   font-size: 1.5em;
+}
+a.btn.more:hover {
+  background-color: #eb4e15;
+  color: #ffffff;
 }

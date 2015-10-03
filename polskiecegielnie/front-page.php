@@ -5,13 +5,13 @@
     <div class="banner-first container">
 
 
-        <div class="description col-md-5 col-md-offset-7">
+        <div class="description col-md-5 col-md-offset-7 pull-right">
 
             <h2><b>Witamy na portalu POLSKA CEGŁA</b></h2>
             <p>Zapraszamy do portalu wiedzy o materiałach budowlanych, technologiach wykonywania ścian 
                 oraz prezentacji tradycyjnych wyrobów budowlanych od sprawdzonych i wybranych producentów
                 certyfikowanych marką Polska Cegła.</p>
-            <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
+            <a href="/index.php/o-nas" class="btn more col-md-4 col-md-offset-8">
                 <strong>wiecej ></strong>
 
             </a>
@@ -46,7 +46,7 @@
 
             <h2><b>Porady</b></h2>
             <p>Tutaj poradzimy jaką wybrać cegłe oraz jak zbudować dom</p>
-            <a href="/index.php/o-nas" class="btn thumbnail col-md-4 col-md-offset-8">
+            <a href="/index.php/o-nas" class="btn more col-md-4 col-md-offset-8">
                 wiecej > 
             </a>
 
