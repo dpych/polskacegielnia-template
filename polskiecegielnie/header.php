@@ -40,14 +40,14 @@
                             <div id="logo">
                                 <a href="<?php echo esc_url(home_url('/')); ?>">
                                     <img src="<?php header_image(); ?>"  /></a>
-                                     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/logo.png" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo('name'); ?>"/>
+                                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/logo.png" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php bloginfo('name'); ?>"/>
                             </div><!-- end of #logo -->
 
                         <?php endif; // header image was removed (again) ?>
                     </div>
 
-                    
-                    
+
+
                     <nav class="navbar navbar-default col-md-6" role="navigation">
                         <div class="container">
                             <div class="navbar-header">
@@ -75,10 +75,11 @@
                     </nav><!-- .site-navigation -->
                     <div class="social-header col-md-3 col-md-offset-1 ">
                         <div class="row">
-                            <?php unite_social(); // Social icons in header ?>          
-                        <img class="col-md-offset-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/yt.png" />
+                            <a href="https://www.youtube.com/user/CERBUDpl" target="_blank">      
+                                <img class="col-md-offset-1" src="<?php bloginfo('stylesheet_directory'); ?>/images/log_icon/yt.png" />
+                            </a>
                         </div>
-                        
+
                     </div>
                 </header><!-- #masthead -->
             </div>
