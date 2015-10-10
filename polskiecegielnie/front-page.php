@@ -181,8 +181,7 @@
                         map: map
                     });
                     marker.addListener('click', function () {
-                        infowindow.close();
-                        last = infowindow.open(map, marker);
+                        infowindow.open(map, marker);
                     });
                 }
             }
