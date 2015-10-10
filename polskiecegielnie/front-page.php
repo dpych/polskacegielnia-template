@@ -188,7 +188,6 @@
                             infowindowLast.close();
                         }
                         infowindowLast = infowindow;
-                        console.log(map);
                         infowindow.open(map, this);
                     });
                 }
