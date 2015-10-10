@@ -173,15 +173,17 @@
                 for (var a = 0, len = dataTable.length; a < len; a++) {
                     var rec = dataTable[a],
                             pos = rec.pos;
-                    var infowindow = new google.maps.InfoWindow({
-                        content: rec.description
-                    });
+
                     marker = new google.maps.Marker({
                         position: new google.maps.LatLng(pos.lat, pos.let),
-                        map: map
+                        map: map,
+                        title: rec.description
                     });
                     marker.addListener('click', function () {
-                        infowindow.open(map, marker);
+                        var infowindow = new google.maps.InfoWindow({
+                            content: this.title
+                        });
+                        infowindow.open(map, this);
                     });
                 }
             }
