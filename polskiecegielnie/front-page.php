@@ -155,6 +155,7 @@
                     zoom: 7,
                     center: new google.maps.LatLng(51.897, 20.644),
                 });
+                var infowindowLast = null;
                 var dataTable =
                         [
                             {pos: {lat: 50.753836, let: 22.1004131}, description: '<div style="width:350px; height:120px;"><img alt="logo" src="http://cerbud.aden.pl/CMS/IMGB/192_logo_cerbud.jpg" style="margin: 5px 15px 15px 15px; max-height: 50px; max-width: 280px; float: left;" /><strong>Krajowe Zrzeszenie Producentów Materiałów Budowlanych CERBUD</strong><br />37–470  Zaklików<br /> ul. Słubickiego 27<br /><br /><a target="_blank" href="http://www.cerbud.org.pl/">http://www.cerbud.org.pl/</a><br /><a href="mailto:zrzeszenie@cerbud.org.pl">zrzeszenie@cerbud.org.pl</a><br /></div>'},
@@ -183,6 +184,11 @@
                         var infowindow = new google.maps.InfoWindow({
                             content: this.title
                         });
+                        if (infowindowLast) {
+                            infowindowLast.close();
+                        }
+                        infowindowLast = infowindow;
+                        console.log(map);
                         infowindow.open(map, this);
                     });
                 }
