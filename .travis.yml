@@ -1,8 +1,8 @@
 language: php
 php:
-- 5.3
+#- 5.3
 - hhvm
-- nightly
+#- nightly
 
 before_script:
 - sudo apt-get install ncftp
