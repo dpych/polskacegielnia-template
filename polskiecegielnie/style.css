@@ -16,7 +16,7 @@
 */
 #page .header-area {
   background-color: #eb4e15;
-  /*        height:4em;*/
+  height:56px;
   width: 100%;
 }
 #page .navbar navbar-default {
